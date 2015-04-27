@@ -145,6 +145,12 @@ mv phpunit.phar /usr/local/bin/phpunit
 chmod 0755 /usr/local/bin/phpunit
 chmod +x /usr/local/bin/phpunit
 
+# install PHP Copy/Paste Detector
+wget https://phar.phpunit.de/phpcpd.phar
+mv phpcpd.phar /usr/local/bin/phpcpd
+chmod 0755 /usr/local/bin/phpcpd
+chmod +x /usr/local/bin/phpcpd
+
 # install nodejs
 apt-get -y install nodejs
 
